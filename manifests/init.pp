@@ -3,7 +3,7 @@
 # GPLv3
 
 class geoip {
-    package{ [ 'GeoIP' 'GeoIP-data' ]:
+    package{ [ 'GeoIP', 'GeoIP-data' ]:
         ensure => present,
     }
 }
